@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MercadoEletronicoCore</name>
+    </assembly>
+    <members>
+        <member name="M:MercadoEletronicoCore.Controllers.PedidoItemController.AlteraStatus(MercadoEletronicoCore.ViewModels.AlteraStatusViewModel)">
+            <summary>
+            Altera Status do Pedido
+            </summary>
+            <param name="alteraStatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MercadoEletronicoCore.Controllers.PedidoItemController.Get">
+            <summary>
+            Get
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MercadoEletronicoCore.Controllers.PedidoItemController.Get(System.Int64)">
+            <summary>
+            Get id
+            </summary>
+            <param name="codigoPedido"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MercadoEletronicoCore.Controllers.PedidoItemController.Post(MercadoEletronicoCore.Models.PedidoItem)">
+            <summary>
+            Post
+            </summary>
+            <param name="pedidoItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MercadoEletronicoCore.Controllers.PedidoItemController.Put(MercadoEletronicoCore.Models.PedidoItem)">
+            <summary>
+            Put
+            </summary>
+            <param name="pedidoItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MercadoEletronicoCore.Controllers.PedidoItemController.Delete(System.Int64)">
+            <summary>
+            Delete
+            </summary>
+            <param name="codigoPedido"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
